@@ -1,0 +1,174 @@
+.fondo
+{
+  position:fixed;
+  height: 101%;
+  width: 100%;
+  right: 0%;
+  top: -1%;
+  z-index: -5;
+}
+
+.titulo
+{
+	position: absolute;
+	width: 40%;
+	top: 14%;
+	left: 30%;
+}
+
+.divtitulo
+{
+	position: absolute;
+	background-color: black;
+	opacity: 70%;
+	height: 30%;
+    width: 51%;
+    top: 8%;
+    left: 24%;
+    border-radius: 8px;
+
+    -webkit-box-shadow: 8px 8px 11px #999;       /* -SOMBRA- */
+    -moz-box-shadow: 2px 2px 5px #999;
+	z-index: 100%;
+}
+
+.linea1
+{
+	position: absolute;
+	width: 10%;
+	top: 8.5%;
+	left: 64.7%;
+}
+.linea2
+{
+	position: absolute;
+	width: 10%;
+	top: 19%;
+	left: 24.2%;
+}
+
+.regresar
+{
+	position: absolute;
+	width: 19%;
+	top: -6.8%;
+	left: -3.15%;
+}
+
+.DIVingresar
+{
+	position: absolute;
+	background-color: black;
+	text-align: center;
+	border-radius: .25rem;
+	color: white;
+	opacity: 65%;
+	padding: 8%;
+	font-size: 50px;
+	width: 13%;
+	height: 7%;
+	left: 15%;
+	top: 50%;
+
+	-webkit-box-shadow: 8px 8px 11px #999;       /* -SOMBRA- */
+    -moz-box-shadow: 2px 2px 5px #999;
+}
+
+.DIVborrar
+{
+	position: absolute;
+	background-color: black;
+	text-align: center;
+	border-radius: .25rem;
+	color: white;
+	opacity: 65%;
+	padding: 8%;
+	font-size: 50px;
+	width: 13%;
+	height: 7%;
+	left: 55%;
+	top: 57.4%;
+
+	-webkit-box-shadow: 8px 8px 11px #999;       /* -SOMBRA- */
+    -moz-box-shadow: 2px 2px 5px #999;
+}
+
+.Tingresar
+{
+	position: absolute;
+	width: 40%;
+	top: 57%;
+	left: 9%;
+	z-index: 5;
+}
+
+.ingresar 
+{
+	position: absolute;
+	color: white;
+	top: 75%;
+	left: 23%;
+}
+
+.botonING
+{
+	position: absolute;
+	top: 95%;
+	left: 15%;
+	width: 70%;
+	font-style: oblique;
+	background-color: white;
+	text-decoration: none;
+	padding: 12px;
+	border: 1px solid #29286D;
+	border-radius: .25rem;
+	color: #29286D;
+	transition: color .15s ease-in-out,
+	background-color .15s ease-in-out;
+	font-size: 18px;
+}
+
+.botonING:hover, .botonING:active, .botonING:focus {
+	color: white;
+	background-color: #29286D;
+}
+
+.Tborrar
+{
+	position: absolute;
+	width: 40%;
+	top: 57%;
+	left: 50%;
+	z-index: 5;
+}
+
+.borrar 
+{
+	position: absolute;
+	color: white;
+	top: 75%;
+	left: 64%;
+}
+
+.botonBOR
+{
+	position: absolute;
+	top: 95%;
+	left: 15%;
+	width: 70%;
+	font-style: oblique;
+	background-color: white;
+	text-decoration: none;
+	padding: 12px;
+	border: 1px solid #29286D;
+	border-radius: .25rem;
+	color: #29286D;
+	transition: color .15s ease-in-out,
+	background-color .15s ease-in-out;
+	font-size: 18px;
+}
+
+.botonBOR:hover, .botonBOR:active, .botonBOR:focus {
+	color: white;
+	background-color: #29286D;
+}

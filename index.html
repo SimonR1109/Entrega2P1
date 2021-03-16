@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+	<title>Entrega 2</title>
+</head>
+<body>
+	<img src="fondo.jpg" class="fondo">
+	<script type="text/javascript">
+		vector=[];		
+		var i=0;
+		var Ingresar=function()
+		{
+			var nombre = document.getElementById('nombre');
+			vector.push(nombre.value);
+			console.log("Nombre Agregado");
+		}
+		   
+		var Borrar=function()  
+		{
+		    var n2=document.getElementById('nombre2').value;
+		    var n3=vector.length-1;
+		   
+		   
+		while (i<n3)
+		{
+   
+			if (n2==vector[n3])
+		{
+			vector.pop();
+			i=vector.length;
+			console.log('nombre borrado con exito');
+		}
+
+		else
+		{
+			if (n2==vector[i])
+			{
+				vector[i]=vector[n3];
+				vector[n3]=n2;
+				vector.pop();
+				i=vector.length;
+				document.getElementById("nombre2").value="";
+				console.log('nombre borrado con exito');
+			}
+			else
+			{
+				console.log('nombre no encontrado');
+				i=i+1;
+			}
+		}  	
+	}
+}
+	</script>
+
+	<div class="divtitulo"></div>
+	<img src="titulo.png" class="titulo">
+	<img src="linea1.png" class="linea1">
+	<img src="linea2.png" class="linea2">
+	<img src="Tingresar.png" class="Tingresar">
+	<img src="Tborrar.png" class="Tborrar">
+	<a href="https://simonr1109.github.io/Periodo1/">
+		<img src="regresar.png" class="regresar">
+	</a>
+
+	<center>
+		<dir class="DIVingresar"></dir>
+		<div class="ingresar">
+			<input type="text" placeholder="Ingrese un nombre" id="nombre">
+				<br><br>
+			<input type="button" value="Ingresar" class="botonING" onclick="Ingresar()">
+		</div>
+		
+
+		<div class="DIVborrar"></div>
+		<div class="borrar">
+			<input type="text" placeholder="Ingrese un nombre" id="nombre2">
+			<br><br>
+			<input type="button" value="Borrar" class="botonBOR" onclick="Borrar()">
+		</div>
+	</center>
+
+</body>
+</html>
+s
